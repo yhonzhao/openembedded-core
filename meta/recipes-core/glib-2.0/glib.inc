@@ -152,6 +152,19 @@ RDEPENDS_${PN}-ptest_append_libc-glibc = "\
             glibc-gconv-iso8859-15 \
             glibc-charmap-invariant \
             glibc-localedata-translit-cjk-variants \
+            locale-base-tr-tr \
+            locale-base-lt-lt \
+            locale-base-ja-jp.euc-jp \
+            locale-base-fa-ir \
+            locale-base-ru-ru \
+            locale-base-de-de \
+            locale-base-pl-pl \
+            locale-base-hr-hr \
+            locale-base-el-gr \
+            locale-base-fr-fr \
+            locale-base-fr-fr \
+            locale-base-es-es \
+            locale-base-en-gb \
            "
 
 INSANE_SKIP_${PN}-ptest += "libdir"
